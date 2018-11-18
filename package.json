@@ -1,0 +1,32 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "testing mockserver using mocha and chai",
+  "main": "testmock.js",
+  "scripts": {
+    "test": "runtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakashkrishnan1985/mocking.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "express",
+    "mocking"
+  ],
+  "author": "prakash krishnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakashkrishnan1985/mocking/issues"
+  },
+  "homepage": "https://github.com/prakashkrishnan1985/mocking#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "path": "^0.12.7"
+  }
+}
